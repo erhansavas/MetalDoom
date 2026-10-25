@@ -1,0 +1,37 @@
+MetalDoom
+
+MetalDoom is an independent macOS port of the DOOM engine source code. It is
+not affiliated with, endorsed by or sponsored by id Software or ZeniMax
+Media. DOOM is a trademark of id Software; the name is used here only to say
+which game this port runs.
+
+License
+
+  MetalDoom is free software, distributed under the GNU General Public
+  License, version 2 (see LICENSE). It comes with NO WARRANTY.
+
+  The engine is the DOOM source code released by id Software under the GNU
+  GPL v2:
+    https://github.com/id-Software/DOOM
+    revision a77dfb96cb91780ca334d0d4cfd86957558007e0
+  The original copyright notices in the engine files (src/doom) are kept.
+  Those file headers still name the earlier "DOOM Source Code License"; id
+  Software later released the same code under the GNU GPL v2, and that
+  license (LICENSE) governs this distribution.
+
+  Every engine file changed for this port says so in its first line. The
+  macOS platform code (src/platform/macos), the Metal shaders, the app icon
+  (an original picture drawn by tools/icon.mm when the app is built, and
+  docs/icon.png, a copy of it for the README) and the
+  build files are original to this port and are licensed under the GNU GPL
+  v2 only.
+
+Game data
+
+  No game data is included: no WAD files, maps, textures, sprites, sounds,
+  music or demos from DOOM. You need your own copy of DOOM or The Ultimate
+  DOOM (DOOM.WAD) or the DOOM shareware release (DOOM1.WAD).
+
+  The sounds of the gore effects are synthesized by the program at run time;
+  their only recorded material is the game's own DSSLOP sound, read from the
+  player's WAD file.
